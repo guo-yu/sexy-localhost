@@ -1,0 +1,18 @@
+IndexIgnore header.html footer.html icons font.woff iconman.png bg.png
+ServerSignature Off
+HeaderName /header.html
+ReadmeName /footer.html
+IndexOptions NameWidth=60
+IndexOptions DescriptionWidth=256
+IndexOptions IconHeight=24
+IndexOptions IconWidth=24
+AddIcon /icons/folder.png .doc .DOC
+AddIcon /icons/html.png .htm .html
+AddIcon /icons/css_valid.png .css .less .sass
+AddIcon /icons/file-js.png .js
+AddIcon /icons/script-php.png .php
+AddIcon /icons/image.gif .jpg .png .gif .psd .jpeg .ico
+AddIcon /icons/coffee.png .esproj
+AddIcon /icons/folder.png .xls .XLS
+AddIcon /icons/folder.png .rar .RAR .zip
+AddIcon /icons/folder_horizontal_open.png ^^DIRECTORY^^
