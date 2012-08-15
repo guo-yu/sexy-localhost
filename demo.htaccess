@@ -1,18 +1,28 @@
-IndexIgnore header.html footer.html icons font.woff iconman.png bg.png
+IndexIgnore header.html footer.html icons font.woff font2.woff bg.png ironman.png
 ServerSignature Off
 HeaderName /header.html
 ReadmeName /footer.html
+# List Config
 IndexOptions NameWidth=60
-IndexOptions DescriptionWidth=256
-IndexOptions IconHeight=24
-IndexOptions IconWidth=24
-AddIcon /icons/folder.png .doc .DOC
+IndexOptions DescriptionWidth=100
+IndexOptions IconHeight=16
+IndexOptions IconWidth=16
+IndexOptions HTMLTable
+IndexOptions FancyIndexing
+IndexOptions ScanHTMLTitles
+# Icon Image
+AddIcon /icons/doc.png .doc .DOC
 AddIcon /icons/html.png .htm .html
-AddIcon /icons/css_valid.png .css .less .sass
-AddIcon /icons/file-js.png .js
-AddIcon /icons/script-php.png .php
+AddIcon /icons/css.png .css .less .sass
+AddIcon /icons/js.png .js
+AddIcon /icons/php.png .php
 AddIcon /icons/image.gif .jpg .png .gif .psd .jpeg .ico
 AddIcon /icons/coffee.png .esproj
-AddIcon /icons/folder.png .xls .XLS
-AddIcon /icons/folder.png .rar .RAR .zip
-AddIcon /icons/folder_horizontal_open.png ^^DIRECTORY^^
+AddIcon /icons/tr.png .sh
+AddIcon /icons/ppt.png .key .ppt
+AddIcon /icons/config.png .conf
+AddIcon /icons/python.png .py
+AddIcon /icons/pdf.png .pdf
+AddIcon /icons/data.png .xls .XLS
+AddIcon /icons/default.png .rar .RAR .zip
+AddIcon /icons/folder.png ^^DIRECTORY^^
